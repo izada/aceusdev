@@ -1,0 +1,207 @@
+@media (min-width: 1440px){
+    .right-content img{
+        right: -72px;
+    }
+}
+@media (max-width:1366px){
+    
+}
+@media (max-width:1200px){
+    .right-content img{
+        right: -42px;
+    }
+    .right-side-content img{
+        min-height: auto;
+    }
+}
+@media (max-width:1024px){
+    .map-card{
+        width: 100%;
+        height: auto;
+    }
+    .capabilities-card .card-body{
+        padding: 27px 15px;
+    }
+    .slick-slide{
+        margin: 0 22px;
+    }
+    .client-card{
+        max-width: unset;
+        width: 100%;
+        text-align: center;
+    }
+    .left-about-img img{
+        width: 100%;
+    min-height: auto;
+    max-width: unset;
+    }
+    .left-about-img{
+        justify-content: unset;
+    }
+    .experience-count{
+        position: absolute;
+    right: 30px;
+    top: 10%;
+    }
+    .common-professional-count{
+        position: absolute;
+        left: 0px;
+        bottom: 17px;
+    }
+    .experience-count{
+        position: absolute;
+    right: 30px;
+    top: 10%;
+    }
+
+}
+@media (max-width:991px){
+    .custom-header .navbar-toggler{
+        display: none;
+    }
+    .sidebar-toggle{
+        display: block;
+    }
+    .sidebar-toggle {
+        border: 1px solid var(--black);
+        padding: 4px 5px;
+        border-radius: 5px;
+        height: 30px;
+        width: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .sidebar-toggle .fa-bars {
+        font-size: 22px;
+        display: block;
+        color: var(--primary);
+    }
+   .sidebar .sidebar-header {
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .sidebar-header .fa-xmark{
+        font-size: 22px;
+        color: var(--black);
+        cursor: pointer;
+    }
+   .sidebar .navbar-sidebar{
+    padding: 10px 15px;
+    overflow: auto;
+   }
+   .sidebar .navbar-sidebar .nav-item a{
+    display: block;
+    padding: 15px 10px;
+    color: var(--black);
+   }
+   .sidebar .navbar-sidebar .nav-item a.active{
+    color: var(--primary);
+   }
+  .order{
+    order: 2;
+  }
+  .right-content img{
+    position: static;
+    right: unset;
+  }
+  .align-row{
+    align-items: unset;
+}
+.right-content{
+    margin-bottom: 30px;
+}
+.slick-slide{
+    margin: 0 18px;
+}
+.left-about-img{
+    margin-bottom: 30px;
+}
+.capabilities-card .number{
+    font-size: 75px;
+}
+.map-card img{
+    padding: 0px 44px;
+    width: 100%;
+}
+.Instructor{
+    flex-direction: column;
+}
+.Instructor .Instructor-card{
+    margin-bottom: 30px;
+}
+.Instructor .Instructor-card:last-child{
+  margin-bottom: 0px;
+}
+.view-btn{
+    margin-bottom: unset;
+}
+.client-card-align{
+    margin-left: unset;
+}
+
+}
+@media (max-width:768px){
+    .slick-slide{
+        margin: 0 12px;
+    }
+    .align-footer-logo img{
+        width: 160px;
+    }
+    .content-btn{
+        padding: 12px 25px;
+    }
+    .heading h2{
+        font-size: 34px;
+    }
+    .capabilities-card .card-body h4{
+        font-size: 22px;
+    }
+    .map-card .card-img-overlay h2{
+        font-size: 32px;
+        line-height: 47px;
+        margin-bottom: 25px;
+    }
+    .right-content img{
+        min-height: auto;
+    }
+    .home{
+        padding: 105px 0px 42px 0px;
+    }
+    .right-side-content img{
+        min-height: auto;
+    }
+    .partnered-details{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 35px 0px;
+    }
+    .Instructor{
+        padding: 0 45px;
+    }
+    .right-side-img img{
+        min-height: auto;
+        max-width: unset;
+    }
+    
+}
+@media (max-width:567px){
+    .copy-right-text{
+        flex-direction: column;
+    gap: 8px 0px;
+    }
+    .capabilities-card .number{
+        font-size: 55px;
+        left: -10px;
+    }
+    .user-sub-inner{
+      flex-direction: column;
+    }
+    .Instructor{
+        padding: 0 35px;
+    }
+}
