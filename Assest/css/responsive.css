@@ -26,7 +26,7 @@
         margin: 0 22px;
     }
     .client-card{
-        max-width: unset;
+        /* max-width: unset; */
         width: 100%;
         text-align: center;
     }
@@ -53,9 +53,18 @@
     right: 30px;
     top: 10%;
     }
+    .workshop-card{
+        left: -30px;
+    }
 
 }
 @media (max-width:991px){
+    .wrapper.intro .sidebar{
+      left: 0px;
+    }
+    .wrapper.intro .overlay {
+        display: block;
+      }
     .custom-header .navbar-toggler{
         display: none;
     }
@@ -84,6 +93,7 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 10px;
+        background-color: var(--light-gray);
     }
     .sidebar-header .fa-xmark{
         font-size: 22px;
@@ -132,7 +142,7 @@
     flex-direction: column;
 }
 .Instructor .Instructor-card{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .Instructor .Instructor-card:last-child{
   margin-bottom: 0px;
@@ -143,7 +153,15 @@
 .client-card-align{
     margin-left: unset;
 }
-
+.client-card{
+    padding: 35px 45px;
+}
+.Instructor-card .Instructor-number{
+    top: -70px;
+    left: -20px;
+    font-size: 100.57px;
+    line-height: 129px;
+}
 }
 @media (max-width:768px){
     .slick-slide{
@@ -187,7 +205,35 @@
         min-height: auto;
         max-width: unset;
     }
-    
+    .registered-count{
+            left: 0px;            
+    }
+    .map-card img{
+        padding: 0px 30px;
+    min-height: 230px;
+    height: auto;
+    }
+    .map-card{
+        min-height: auto;
+    }
+    .approach{
+        margin-bottom: 75px;
+    }
+    .topic-key .key-list a{
+        padding: 16px;
+    margin-bottom: 20px;
+    }
+    .topic-key .key-list h3{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .topic-key{
+        margin-bottom: 55px;
+    }
+    .video-slide img{
+        min-height: 263px !important;
+        height: 263px !important;
+    }
 }
 @media (max-width:567px){
     .copy-right-text{
@@ -203,5 +249,45 @@
     }
     .Instructor{
         padding: 0 35px;
+    }
+    .workshop-card{
+        left: auto;
+        right: 0px;
+    top: 12%;
+    }
+    .partnered-details{
+        padding: 30px 30px;
+    }
+    .count{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .count-regi .count-text{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .common-registered-count{
+        left: 0px;
+    }
+    .copy-right-text{
+        padding: 17px 20px;
+        text-align: center;
+    }
+    .map-card .card-img-overlay h2{
+        font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 22px;
+    }
+    .counter-card-icon{
+        width: 35px;
+    height: 35px;
+    line-height: 35px
+    }
+    .counter-card{
+        padding: 18px 18px;
+    }
+    .workshop-list .accordion-button{
+        font-size: 18px;
+    line-height: 25px;
     }
 }
