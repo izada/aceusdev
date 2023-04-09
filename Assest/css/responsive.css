@@ -172,6 +172,32 @@
 }
 }
 @media (max-width:768px){
+    .video-slide
+    {
+        min-height: 100%;
+        height: 100%;
+    }
+    .fit-custom-img
+    {
+        min-height: 100%;
+        height: 100%;
+    }
+    .consultancy-topic .consultancy-ul
+    {
+        display: inline-block;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .consultancy-ul .consultancy-list
+    {
+        margin-bottom: 10px;
+    }
+    
+    .right-content img
+    {
+        transform: scaleX(-1);
+        margin-left: -147px;
+    }
     .slick-slide{
         margin: 0 12px;
     }
