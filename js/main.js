@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
   });
 
-
+  
 $(document).ready(function(){
     $('.videoplayer').slick({
         slidesToShow: 1,
@@ -52,15 +52,13 @@ $(document).ready(function(){
         // autoplay: true,
         autoplaySpeed: 2000,
         infinite: true,
-        prevArrow:'<div class="left-slide arrow"><i class="fa-solid fa-angle-left"></i></div>',
-        nextArrow:'<div class="right-slide arrow"><i class="fa-solid fa-angle-right"></i><div>',
+        prevArrow:'<div class="right-slide arrow"><img src="./Assest/img/icon/right.png" alt="right-slide" class="img-fluid " /></div>',
+        nextArrow:' <div class="left-slide arrow"><img src="./Assest/img/icon/right.png" alt="left-slide" class="img-fluid " /></div>',
         responsive: [
             {
               breakpoint: 768,
               settings: {
-                autoplay: true,
-                arrows: false,
-                autoplaySpeed: 2000,
+                arrows: true,
                 infinite: true,
                 slidesToShow: 1
               }
@@ -68,7 +66,7 @@ $(document).ready(function(){
             {
               breakpoint: 480,
               settings: {
-                arrows: false,
+                arrows: true,
                 slidesToShow: 1
               }
             }
@@ -102,3 +100,9 @@ $(document).ready(function() {
 		},
   });
 });
+
+Fancybox.bind('[data-fancybox="gallery"]', {
+  // Your custom options
+});
+// Fancybox.fromSelector('[data-fancybox="gallery"]');
+

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>news details white video</title>
+    <title>news details with video</title>
     <link rel="icon" type="image/x-icon" href="./Assest/img/icon/favicon.png" />
     <link
         href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./Assest/css/style.css" />
     <link rel="stylesheet" href="./Assest/css/responsive.css" />
     <link rel="stylesheet" href="./Assest/css/slick.css" />
+    <link rel="stylesheet" href="./Assest/css/fancybox.css"/>
 </head>
 
 <body>
@@ -48,10 +49,10 @@
                                 <a class="nav-link" href="./service.html">Capabilities</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./news.html">News</a>
+                                <a class="nav-link active" aria-current="page" href="./newDetails.html">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="./contactUs.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -77,10 +78,10 @@
                     <a class="nav-link active" aria-current="page" href="./service.html">Capabilities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link" href="./newDetails.html">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="./contactUs.html">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -139,12 +140,14 @@
                     </div>
                 </div>
                 <div class="card img-card">
-                     <div class="video-overlay">
+                    <div class="video-overlay">
+                        <a class="" href="https://www.youtube.com/embed/tgbNymZ7vqY"  data-fancybox="gallery" data-caption="news-video">
                         <!-- <video  autoplay  loop controls width="400" height="500"> 
                             <source src="./Assest/img/big_buck_bunny.mp4" type="video/mp4">
                         </video> -->
-                        <img src="./Assest/img/icon/Vector.png" alt="video-play" class="img-fluid video-play-button" />
-                     </div>
+                            <img src="./Assest/img/icon/Vector.png" alt="video-play" class="img-fluid video-play-button" />
+                        </a>
+                        </div>
                 </div>
                 <p class="news-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500stext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500stext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 <p class="news-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500stext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500stext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
@@ -171,9 +174,11 @@
                     </div>
                 </div>
                 <div class="card img-card">
-                    <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
+                    <a class="" href="./Assest/img/RectangleImg.png" data-fancybox="gallery">
+                        <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
+                    </a>
                 </div>
-                <button class="btn btn-md btn-outline-primary custom-btn m-auto">read more news</button>
+                <a type="button" class="btn btn-md btn-outline-primary custom-btn m-auto" href="./newDetails.html">read more news</a>
             </div>
         </div>
      </section>
@@ -243,6 +248,7 @@
     <script src="./js/jquery-3.6.4.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/fancybox.umd.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

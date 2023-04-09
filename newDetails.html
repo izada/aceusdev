@@ -14,6 +14,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./Assest/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Assest/css/fancybox.css"/>
     <link rel="stylesheet" href="./Assest/css/style.css" />
     <link rel="stylesheet" href="./Assest/css/responsive.css" />
     <link rel="stylesheet" href="./Assest/css/slick.css" />
@@ -48,10 +49,10 @@
                                 <a class="nav-link" href="./service.html">Capabilities</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./news.html">News</a>
+                                <a class="nav-link active" aria-current="page" href="./newDetails.html">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="./contactUs.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -77,10 +78,10 @@
                     <a class="nav-link active" aria-current="page" href="./service.html">Capabilities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link" href="./newDetails.html">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="./contactUs.html">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -137,7 +138,11 @@
                     </div>
                 </div>
                 <div class="card img-card">
-                    <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
+                    <a class="" data-fancybox="gallery"
+                    data-src="./Assest/img/RectangleImg.png"
+                    data-caption="news-gallery" href="#">
+                        <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />   
+                    </a>
                 </div>
                 <p class="news-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500stext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500stext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 <p class="news-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500stext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500stext of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
@@ -164,9 +169,13 @@
                     </div>
                 </div>
                 <div class="card img-card">
+                    <a class="" data-fancybox="gallery"
+                    data-src="./Assest/img/RectangleImg.png"
+                    data-caption="news-gallery" href="#">
                     <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
+                    </a>
                 </div>
-                <button class="btn btn-md btn-outline-primary custom-btn m-auto">read more news</button>
+                <a type="button" href="./newsListing.html" class="btn btn-md btn-outline-primary custom-btn m-auto">read more news</a>
             </div>
         </div>
      </section>
@@ -236,6 +245,7 @@
     <script src="./js/jquery-3.6.4.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/fancybox.umd.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

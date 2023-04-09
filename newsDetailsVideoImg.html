@@ -14,6 +14,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./Assest/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Assest/css/fancybox.css"/>
     <link rel="stylesheet" href="./Assest/css/style.css" />
     <link rel="stylesheet" href="./Assest/css/responsive.css" />
     <link rel="stylesheet" href="./Assest/css/slick.css" />
@@ -48,10 +49,10 @@
                                 <a class="nav-link" href="./service.html">Capabilities</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./news.html">News</a>
+                                <a class="nav-link active" aria-current="page" href="./newDetails.html">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="./contactUs.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -77,10 +78,10 @@
                     <a class="nav-link active" aria-current="page" href="./service.html">Capabilities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link" href="./newDetails.html">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="./contactUs.html">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -156,8 +157,10 @@
                 </div>
                 <div class="card img-card">
                     <div class="video-overlay">
-                        <img src="./Assest/img/icon/Vector.png" alt="video-play" class="img-fluid video-play-button" />
-                    </div>
+                        <a class="" href="https://www.youtube.com/embed/tgbNymZ7vqY"  data-fancybox="gallery" data-caption="news-gallery">
+                            <img src="./Assest/img/icon/Vector.png" alt="video-play" class="img-fluid video-play-button" />
+                        </a>
+                        </div>
                 </div>
                 <p class="news-para mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                     Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy
@@ -206,7 +209,9 @@
                     </div>
                 </div>
                 <div class="card img-card">
-                    <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
+                    <a class="" href="./Assest/img/RectangleImg.png" data-fancybox="gallery">
+                        <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
+                    </a>
                 </div>
                 <p class="news-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                     Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy
@@ -259,20 +264,26 @@
 
                 <div class="card img-card">
                     <div class="video-slide videoplayer">
-                        <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
-                        <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
-                        <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
-
-                        <!-- <img src="./Assest/img/icon/right.png" alt="right-slide" class="img-fluid " /> -->
-                        <!-- <div class="right-slide arrow">
-                        </div>
-                        <div class="left-slide arrow">
-                            <img src="./Assest/img/icon/right.png" alt="left-slide" class="img-fluid " />
-                        </div>
-                        <div class="size">
-                            <img src="./Assest/img/icon/size.png" alt="size-img" class="img-fluid" />
-                        </div> -->
-
+                            <a class="" data-fancybox="gallery" href="./Assest/img/RectangleImg.png">
+                                <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid fit-custom-img" /> 
+                                <div class="size">
+                                    <img src="./Assest/img/icon/size.png" alt="size-img" class="img-fluid" />
+                                </div>
+                            </a>
+                            <a class="" data-fancybox="gallery" href="./Assest/img/RectangleImg.png">
+                                <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid fit-custom-img" /> 
+                                <div class="size">
+                                    <img src="./Assest/img/icon/size.png" alt="size-img" class="img-fluid" />
+                                </div>
+                                
+                            </a>
+                            <a class="" data-fancybox="gallery" href="./Assest/img/RectangleImg.png">
+                                <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid fit-custom-img" /> 
+                                <div class="size">
+                                    <img src="./Assest/img/icon/size.png" alt="size-img" class="img-fluid" />
+                                </div>
+                                
+                            </a>
                     </div>
                 </div>
                 <p class="news-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -324,18 +335,28 @@
 
                 <div class="card img-card">
                     <div class="video-slide videoplayer">
-                        <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
-                        <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
-                        <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid" />
-                        <!-- <div class="right-slide arrow">
-                            <img src="./Assest/img/icon/right.png" alt="right-slide" class="img-fluid " />
-                        </div>
-                        <div class="left-slide arrow">
-                            <img src="./Assest/img/icon/right.png" alt="left-slide" class="img-fluid " />
-                        </div>
-                        <div class="size">
-                            <img src="./Assest/img/icon/size.png" alt="size-img" class="img-fluid" />
-                        </div> -->
+                        <div class="video-slide videoplayer">
+                            <a class="" data-fancybox="gallery" href="./Assest/img/RectangleImg.png">
+                                <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid fit-custom-img" /> 
+                                <div class="size">
+                                    <img src="./Assest/img/icon/size.png" alt="size-img" class="img-fluid" />
+                                </div>
+                            </a>
+                            <a class="" data-fancybox="gallery" href="./Assest/img/RectangleImg.png">
+                                <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid fit-custom-img" /> 
+                                <div class="size">
+                                    <img src="./Assest/img/icon/size.png" alt="size-img" class="img-fluid" />
+                                </div>
+                                
+                            </a>
+                            <a class="" data-fancybox="gallery" href="./Assest/img/RectangleImg.png">
+                                <img src="./Assest/img/RectangleImg.png" alt="RectangleImg" class="img-fluid fit-custom-img" /> 
+                                <div class="size">
+                                    <img src="./Assest/img/icon/size.png" alt="size-img" class="img-fluid" />
+                                </div>
+                                
+                            </a>
+                    </div>
                     </div>
                 </div>
                 <div class="col-12">
@@ -376,7 +397,7 @@
                     printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
                     since the 1500sdummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s</p>
-                <button class="btn btn-md btn-outline-primary custom-btn m-auto">read more news</button>
+                <a type="button" href="./newsListing.html" class="btn btn-md btn-outline-primary custom-btn m-auto">read more news</a>
             </div>
         </div>
     </section>
@@ -446,6 +467,7 @@
     <script src="./js/jquery-3.6.4.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/fancybox.umd.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
