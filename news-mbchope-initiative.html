@@ -19,7 +19,6 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <!-- <link rel="stylesheet" href="./assets/css/fancybox.css" /> -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
@@ -38,6 +37,7 @@
 
         gtag('config', 'G-933NZMD33D');
     </script>
+    
     <style>
         .gallery {
             position: relative;
@@ -45,6 +45,7 @@
             max-width: 100%;
             max-height: 100%;
             margin: auto;
+            margin-bottom: 30px;
             border-radius: 4px;
             overflow: hidden;
         }
@@ -103,8 +104,10 @@
         }
 
         .gallery-img {
-            width: 100%;
-            height: 100%;
+            max-width: 40%;
+            /*max-height: 40%;*/
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .slick-lightbox .slick-arrow {
@@ -275,48 +278,31 @@
                 <div class="gallery js-gallery">
                     <div class="gallery-item">
                         <div class="gallery-img-holder js-gallery-popup">
-                            <img src="https://picsum.photos/600/500" alt="" class="gallery-img">
+                            <img src="./assets/img/news/mbc/mbc1.jpg" alt="" class="gallery-img lazyload">
                         </div>
                     </div>
                     <div class="gallery-item">
                         <div class="gallery-img-holder js-gallery-popup">
-                            <img src="https://picsum.photos/700/500" alt="" class="gallery-img">
+                            <img src="./assets/img/news/mbc/mbc2.jpg" alt="" class="gallery-img lazyload">
                         </div>
                     </div>
                     <div class="gallery-item">
                         <div class="gallery-img-holder js-gallery-popup">
-                            <img src="https://picsum.photos/800/500" alt="" class="gallery-img">
+                            <img src="./assets/img/news/mbc/mbc3.jpg" alt="" class="gallery-img lazyload">
                         </div>
                     </div>
                     <div class="gallery-item">
                         <div class="gallery-img-holder js-gallery-popup">
-                            <img src="https://picsum.photos/900/500" alt="" class="gallery-img">
+                            <img src="./assets/img/news/mbc/mbc4.jpg" alt="" class="gallery-img lazyload">
                         </div>
                     </div>
                     <div class="gallery-item">
                         <div class="gallery-img-holder js-gallery-popup">
-                            <img src="https://picsum.photos/1000/500" alt="" class="gallery-img">
-                        </div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="gallery-img-holder js-gallery-popup">
-                            <img src="https://picsum.photos/1100/500" alt="" class="gallery-img">
-                        </div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="gallery-img-holder js-gallery-popup">
-                            <img src="https://picsum.photos/1200/500" alt="" class="gallery-img">
-                        </div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="gallery-img-holder js-gallery-popup">
-                            <img src="https://picsum.photos/1300/500" alt="" class="gallery-img">
+                            <img src="./assets/img/news/mbc/mbc5.jpg" alt="" class="gallery-img lazyload">
                         </div>
                     </div>
                 </div>
 
-                <br><br><br><br><br><br>
-                <br><br><br><br><br><br>
                 <br><br><br><br><br><br>
 
                 <a type="button" href="./newsListing.html" class="btn btn-md btn-outline-primary custom-btn m-auto">read
@@ -398,13 +384,8 @@
 
     <!--------- script --------->
 
-    <!-- <script src="./js/lazysizes.min.js"></script> -->
-    <!-- <script src="./js/cookie.notice.min.js"></script> -->
-    <!-- <script src="./js/jquery-3.6.4.min.js"></script> -->
-    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
-    <!-- <script src="./js/slick.min.js"></script> -->
-    <!-- <script src="./js/ ibox.umd.js"></script> -->
-    <!-- <script src="./js/main.js"></script> -->
+    <script src="./js/lazysizes.min.js"></script>
+    <script src="./js/cookie.notice.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
