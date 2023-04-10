@@ -1112,7 +1112,6 @@ footer{
   margin-bottom: 56px;
 }
 .img-card img{
-  border-radius: 10px;
 }
 .news-para{
   font-weight: 400;
@@ -1352,4 +1351,5 @@ footer{
 
 .izcard {
   background-color: #000 !important;
+  border-radius: 10px;
 }
