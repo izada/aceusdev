@@ -52,8 +52,8 @@ $(document).ready(function(){
         // autoplay: true,
         autoplaySpeed: 2000,
         infinite: true,
-        prevArrow:'<div class="right-slide arrow"><img src="./Assest/img/icon/right.png" alt="right-slide" class="img-fluid " /></div>',
-        nextArrow:' <div class="left-slide arrow"><img src="./Assest/img/icon/right.png" alt="left-slide" class="img-fluid " /></div>',
+        prevArrow:'<div class="right-slide arrow"><img src="./assets/img/icon/right.png" alt="right-slide" class="img-fluid " /></div>',
+        nextArrow:' <div class="left-slide arrow"><img src="./assets/img/icon/right.png" alt="left-slide" class="img-fluid " /></div>',
         responsive: [
             {
               breakpoint: 768,
