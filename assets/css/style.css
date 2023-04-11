@@ -1299,6 +1299,7 @@ footer{
   font-size: 19px;
   line-height: 31px;
   color: var(--black);
+  text-align: justify;
 }
 .policy-para a{
   text-decoration: underline;
