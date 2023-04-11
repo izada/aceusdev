@@ -64,8 +64,6 @@ h5 {
   font-weight: 700;
   font-size: 17px;
   line-height: 20px;
-  text-transform: capitalize;
-
 }
 p {
   font-family: "Albert Sans";
@@ -425,6 +423,7 @@ p {
   line-height: 26px;
   margin-bottom: 15px;
   color: var(--black);
+  text-align: justify;
 }
 .about-heading{
   display:flex;
@@ -442,12 +441,14 @@ p {
 }
 .about-content .about-para{
   margin-bottom: 67px;
+  text-align: justify;
 }
 .para{
   font-weight: 400;
   font-size: 19px;
   line-height: 31px;
   margin-top: 40px;
+  text-align: justify;
 }
 .zig-zag-pattern{
  padding-top: 70px;
@@ -475,6 +476,7 @@ p {
   font-size: 19px;
   line-height: 31px;
   color: var(--black);
+  text-align: justify;
 }
 .left-side-content .heading h2{
   font-weight: 600;
@@ -576,6 +578,7 @@ p {
   text-transform: capitalize;
   color: var(--darkBlack);
   margin-bottom: 48px;
+  text-align: justify;
 }
 .view-card-body  .read-link {
   font-family: 'Albert Sans';
@@ -741,6 +744,7 @@ footer{
   font-size: 19px;
   line-height: 31px;
   color: var(--black);
+  text-align: justify;
 
 }
 .partnered-details:last-child{
@@ -1093,6 +1097,7 @@ footer{
   font-size: 19px;
   line-height: 31px;
   color: var(--black);
+  text-align: justify;
 }
 .news-details .view-card {
  margin-bottom: 70px;
