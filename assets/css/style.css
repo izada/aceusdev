@@ -610,7 +610,7 @@ p {
 
 }
 .map-card .card-img-overlay{
-  top: 50%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -619,8 +619,9 @@ p {
 }
 .map-card .card-img-overlay h2 {
   color: var(--white);
-  margin-bottom: 38px;
+  margin-bottom: 4px;
   text-transform: capitalize;
+  font-size: 30px;
 }
 .content-btn{
   font-family: 'Albert Sans';
@@ -629,6 +630,13 @@ p {
   line-height: 22px;
   text-align: center;
   padding: 12px 35px;
+}
+
+.map .content-btn
+{
+  background: #ffffff;
+    border: none;
+    color: #ba0210;
 }
 /* ============ map css end here ============ */
 /* ====== footer ===== */
