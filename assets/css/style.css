@@ -1369,3 +1369,7 @@ footer{
   background-color: #000 !important;
   border-radius: 10px;
 }
+
+.logomain {
+  width: 120px;
+}
