@@ -1069,6 +1069,7 @@ footer{
   line-height: 31px;
   color: var(--black);
   margin-bottom: 40px;
+  text-align: justify;
 }
 /* ====== workshop-list & ace-training css end here ============ */
 /* ========= new section css ============ */
