@@ -521,12 +521,12 @@ p {
   margin: 0px;
 }
 .capabilities-card {
-     background-color: var(--darkWhite);
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.18);
-    border-radius: 10px;
-    border: unset;
-    margin-bottom: 30px;
-    min-height: 185px;
+ background-color: var(--darkWhite);
+ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.18);
+ border-radius: 10px;
+ border: unset;
+ margin-bottom: 30px;
+ min-height: 185px;
 }
 .capabilities-card .number{
  position: absolute;
@@ -593,20 +593,20 @@ p {
 /*========= view css end here ======== */
 /* ============ map css ============ */
 .map-card{
-      background-color: var(--danger);
-    border-radius: 20px;
-    border: unset;
-    width: 100%;
-    height: 185px;
-    margin: 0 auto;
-    bottom: -65px;
-    min-height: 185px;
+  background-color: var(--danger);
+  border-radius: 20px;
+  border: unset;
+  width: 100%;
+  height: 185px;
+  margin: 0 auto;
+  bottom: -65px;
+  min-height: 185px;
 }
 .map-card img{
-     
-    height: 100%;
-    opacity: 0.5;
-    object-fit: cover;
+ 
+  height: 100%;
+  opacity: 0.5;
+  object-fit: cover;
 
 }
 .map-card .card-img-overlay{
@@ -635,8 +635,8 @@ p {
 .map .content-btn
 {
   background: #ffffff;
-    border: none;
-    color: #ba0210;
+  border: none;
+  color: #ba0210;
 }
 /* ============ map css end here ============ */
 /* ====== footer ===== */
@@ -1373,4 +1373,14 @@ footer{
 
 .logomain {
   width: 140px;
+}
+
+.izborderright {
+  border-right: 1px solid gray;
+}
+
+@media screen and (max-width: 736px) {
+  .izborderright {
+    border-right: none;
+  }
 }
