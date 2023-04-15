@@ -1375,6 +1375,12 @@ footer{
   width: 140px;
 }
 
+@media screen and (max-width: 736px) {
+  .logomain {
+    width: 100px;
+  }
+}
+
 .izborderright {
   border-right: 1px solid gray;
 }
