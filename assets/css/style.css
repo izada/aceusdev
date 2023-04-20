@@ -371,7 +371,7 @@ p {
   position: relative;
 }
 .top-heading h3 .text-border::before {
-  content: "";
+  /*content: "";*/
   width: 100%;
   height: 6px;
   background: rgba(222, 0, 17, 0.42);
