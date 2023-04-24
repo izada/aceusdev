@@ -396,7 +396,7 @@ p {
  display: block;
 }
 .heading h2{
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   margin-bottom: 20px;
   color: var(--black);
 }
