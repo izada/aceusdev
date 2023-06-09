@@ -417,7 +417,7 @@ p {
   bottom: 22%;
   left: 0px;
 }
-.about-right-side p {   
+.about-right-side p {
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
@@ -1349,6 +1349,9 @@ footer{
 }
 .range-topic{
   padding-top: 45px;
+}
+.range-topic p {
+  text-align: justify;
 }
 /* =========== consultancy css end here ===========*/
 
